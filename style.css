@@ -1,0 +1,385 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    opacity: 70%;
+    position: relative;
+    
+}
+body{
+  background-color: #363543; 
+  padding: 0%;
+  margin: 0%;
+}
+footer{
+    background-color: #363543;
+    padding: 2rem;
+    position: relative;
+    z-index: -5;
+   
+
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#363543;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 0rem 7rem 0rem 7rem;
+   
+    
+    
+}
+
+.navOptions{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 140%;
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+    margin-left: -110%;
+    
+    
+    
+}
+.navOptionsIcons{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 140%;
+    margin-left: -60%;
+
+    
+
+}
+
+
+
+.navName{
+  margin-left: 0%;
+  font-size: 1.09rem;
+  
+}
+
+
+
+
+
+.line{
+    height: 6px;
+    margin: 1rem;
+    width: 25%;
+    background-color: #ffc41c;
+  
+}
+
+
+.section01{
+    background-color: #363543;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 0rem 7rem 0rem 7rem;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+    
+
+
+
+}
+.paraSection01{
+    color: white;
+    opacity: 70%;
+    width: 33%;
+    margin: 2rem;
+    font-family: Arial, sans-serif;
+    margin-left: 1%;
+    line-height: 1.5rem;
+}
+.nameSection01{
+    color: white;
+    font-size: 4rem;
+    font-family: Arial, sans-serif;
+    line-height: 35%;
+    
+}
+
+
+.servicesBox{
+    width: 40%;
+    padding: 2rem ;
+    margin-top: 2rem;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    position: relative;
+    z-index: 4;
+
+    
+
+}
+#servicesBoxPara{
+    line-height: 1.9rem;
+    opacity: 70%;
+    font-size: 1.35rem;
+}
+
+.servicesBoxList{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0%;
+    width: 66%;
+   
+
+
+}
+.serviceBoxBottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+   
+}
+
+
+.imageCircle{
+    display: block;
+    border-radius: 50%;
+    background-color: #282834;
+    height:fit-content;
+    position: absolute;
+    z-index: 0;
+    box-shadow: 0rem 0rem 4rem #282834 ;
+
+}
+
+.nameParaSection01{
+
+    z-index:  1;
+   
+}
+.iconServiceBox{
+    height: 1.2rem;
+    width: 1.2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.iconCircle{
+    display: block;
+    border-radius: 50%;
+    background-color: #454453ef;
+    height: fit-content;
+    width: fit-content;
+    padding: 0.4rem ;
+    box-shadow: 0rem 0rem 1rem #282834;
+
+
+}
+.servicesBoxArrowAndShow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+    width: 40%;
+   
+}
+.iconArrow{
+    height: 80%;
+    width: 80%;
+    margin-top: 3px;
+}
+.section02{
+    background-color: #282834;
+    padding: 8rem 7rem 22rem 7rem;
+    margin-top: -3rem;
+    margin-bottom: -15rem;
+    position: relative;
+    z-index: 0;
+}
+.section02Top{
+    background-color: #282834;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:  0rem 0rem 0rem 0rem  ;
+    
+
+}
+.projectsListright{
+    list-style-type: none;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0rem 0rem 0rem 10rem;
+    width: 70%;
+}
+.sec2Left{
+    width: 100%;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+}
+.section02Imgs{
+    height: 40%;
+    width: 40%;
+    margin-right: 1rem;
+    border-radius: 4%;
+}
+.projectsListrightLi{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    margin: 1.5rem 0rem 1.5rem 0rem;
+    
+}
+
+.secListText{
+    margin-right: 7rem;
+}
+
+.sec02ParaBottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.headSec02{
+    color: #ffc41c;
+    font-size: 2rem;
+}
+.headSec02Bottom{
+    font-size: 0.9rem;
+    opacity: 70%;
+}
+.sec02Top{
+    line-height: 1.6rem;
+}
+.section02Bottom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem 7rem 0rem 7rem;
+    position: relative;
+    z-index: 11;
+    
+
+}
+.endBoxes{
+    display:block;
+    width: 26%;
+    height: 15rem;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 0.8rem ; 
+    padding: 2.9rem 2rem 2rem 2rem;
+    background-color: #403f51;
+    box-sizing: content-box;
+    box-shadow: 2px 4px 12px 3px #242424;
+
+}
+.sec02BottomIcon{
+    height: 1.7rem;
+    width: 1.7rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+.sec02BottomIconCircle{
+    display: block;
+    border-radius: 50%;
+    background-color: #323142;
+    height: fit-content;
+    width: fit-content;
+    padding: 0.7rem ;
+    
+}
+
+.sectionSocialBox{
+    margin-top: 5rem;
+    margin: 5rem 7rem 0rem 7rem;
+    padding: 1rem;
+    background-color:  #403f51;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0rem 0rem 1rem #383838;
+    position: relative;
+    z-index: 10;
+    
+
+}
+
+.secSocialBoxBlock{
+    display: block;
+    padding: 1rem 3rem 1rem 3rem;
+    background-color: #343440;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem ; 
+    z-index: 1;
+    box-shadow: 0rem 0rem 1rem #403f51;
+}
+.secSBElement{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.google{
+    height: 95% ;
+    width: 95%;
+     
+}
+.meta{
+    height: 20% ;
+    width: 40%;
+
+}
+.slack{
+    height: 20% ;
+    width: 40%;
+}
+.linkedinBlock{
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    font-size: 1.3rem;
+}
+.metaBlock{
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    font-size: 1.3rem;
+    
+}
+.slackBlock{
+    padding-top: 0.55rem;
+    padding-bottom: 0.55rem;
+    font-weight: bolder;
+    font-size: 1.5rem;
+
+}
+#sec02BottonPara{
+    font-size: 1rem ;
+    line-height: 1.4rem;
+    opacity: 90%;
+}
