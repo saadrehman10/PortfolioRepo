@@ -1,2 +1,0 @@
-# potfolioAssigment
-SMIT potfolio Assigment
